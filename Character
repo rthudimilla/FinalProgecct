@@ -9,11 +9,11 @@ import java.awt.Color;
 
 import javax.swing.*;
 
-public class Man extends JComponent
+public class Character extends JComponent
 {
 	private int dx = 0, dy = 0;
 	
-	public Man(int x, int y)
+	public Character(int x, int y)
 	{
 		setLocation(x,y);
 		setSize(20,40);
